@@ -1,4 +1,5 @@
 import { CounterButtons, CounterDisplay } from "./components/Counter"
+import PostsList from "./components/PostsList"
 
 const App = () => {
 
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <CounterDisplay />
       <CounterButtons />
+      <PostsList/>
     </>
   )
 }
